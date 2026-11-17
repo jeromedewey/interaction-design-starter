@@ -16,9 +16,13 @@
    --------------------------------------------------------------------- */
 
 :root {
-  --ink:    #1a1a1a;   /* text */
-  --paper:  #ffffff;   /* page background */
+  --ink:    #ffffff;   /* text */
+  --paper:  #000000;   /* page background */
   --accent: #c0392b;   /* links, and anything you want to stand out */
+}
+
+h1{
+  color: #be1401;
 }
 
 
@@ -34,7 +38,7 @@
 
 body {
   margin: 0;                          /* removes the browser's white edge */
-  font-family: "Inter", sans-serif;   /* the Google Font linked in index.html */
+  font-family: "Science Gothic", sans-serif;   /* the Google Font linked in index.html */
   font-size: 1.125rem;                /* 18px */
   line-height: 1.6;                   /* space between lines of text */
   color: var(--ink);
@@ -84,6 +88,8 @@ header p {
 }
 
 
+
+
 /* ---------------------------------------------------------------------
    CHAPTERS AND CREDITS
    --------------------------------------------------------------------- */
@@ -115,3 +121,19 @@ footer {
    YOUR STYLES
    Write your own rules below this line.
    --------------------------------------------------------------------- */
+.beat {
+  border: 1px solid red;
+}
+
+.chapter {
+  border: 1px solid green;
+  height: 100svh;
+}
+
+#chapter-1-title-area {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
