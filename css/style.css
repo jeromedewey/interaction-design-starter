@@ -25,6 +25,10 @@ h1{
   color: #be1401;
 }
 
+background: linear-gradient(180deg, #030303 0%, #000 13.94%, #406903 21.63%, #000 48.08%);
+
+
+
 
 /* ---------------------------------------------------------------------
    BASICS
@@ -107,7 +111,7 @@ header p {
 .chapter-figure figure        { flex: 1 1 24rem; margin: 0; }
 .chapter,
 footer {
-  max-width: 40rem;          /* keeps lines of text short enough to read */
+  /* max-width: 40rem;          keeps lines of text short enough to read */
   margin: 0 auto;            /* auto left and right centres the block */
   padding: 4rem 2rem;
 }
@@ -115,6 +119,7 @@ footer {
 footer {
   font-size: 1rem;
 }
+
 
 
 /* ---------------------------------------------------------------------
@@ -136,4 +141,22 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+#chapter-10-theend {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#chapter-2-originsandrules {
+
+  background: linear-gradient(180deg, #000000 10%, #000 13.94%,  #406903 40.63%,#406903 70.63%,#000 100%);
+}
+
+.wrap {
+  max-width: 1600px;
+  margin: 0 auto;
 }
